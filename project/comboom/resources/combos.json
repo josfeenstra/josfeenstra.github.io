@@ -1,0 +1,428 @@
+{
+    "vecos": [
+        {
+            "name": "Groover Big Band",
+            "color": "hsl(330, 100%, 50%)",
+            "status": "veco",
+            "NOTE": "dit zijn alle leden van laatste 5 jaar",
+            "members": [
+                "Niels van Willigen",
+                "Sara francke",
+                "Jordi Alkemade",
+                "Koen Ruigrok",
+                "Lucas Norder",
+                "Allard van Engelenhoven",
+                "Dante Pelk", 
+                "Jasper van Rosendaal",
+                "Daan Kluwer",
+                "Ties Nieuwenhuizen",
+                "Thymen van Duijn",
+                "Thijs van Veen",
+                "Luuk Eeftink",
+                "Teun van Woudenberg",
+                "Huib Baetsen",
+                "Tristan Lievestro",
+                "Isabella Keppy",
+                "Gijs Vis",
+                "Karan Kohabir",
+                "Ewoud van Munster",
+                "Marjolein Kippers", "Marthe Meskers", "Bart Kroese",
+                "Laurens Buijs", "Chris Wouters", "Jurrian Govers", "Joost Schoonhoven", "Sjoerd van den Bosch", "Martijn Ytsma", "Arthur van Dijk",
+                "Rachel Los", "Rosa Haersbach", "Tim Wilmes",
+                "Catóoow",
+                "Bas Biesheuvel"
+            ]
+        },
+        {
+            "name": "Magatama",
+            "color": "hsl(100, 100%, 50%)",
+            "members": [
+                "Margo Smeenge",
+                "Anne van der Klein",
+                "Lorena Hendrix",
+                "Roos Breest",
+                "Tom Wemelsfelder",
+                "Koen Kraaijveld",
+                "Christian Grunwald",
+                "Jelle van den Brink",
+                "Dion Platschorre",
+                "Lucas Giessen",
+                "Pim America",
+                "Puck Bieseman",
+                "Sherine Brahma",
+                "David de Hartogh",
+                "Steven Jansen",
+                "Linde Varrossieau",
+                "Fleur Gelten",
+                "Jan Josef Buis trom",
+                "Wouter Pereboom",
+                "Thomas de Boer",
+                "Tim de Boer",
+                "Elsemieke Koole",
+                "Joep Knepper",
+                "Jonathan Swart",
+                "Marieke Nauta",
+                "Maartje van der Meer"
+            ]
+        },
+        {
+            "name": "Vocalzz",
+            "color": "hsl(250, 100%, 50%)",
+            "members": [
+                "Aleksandra 'Ola' Milanowska",
+                "Almonso McConkey",
+                "Anne van der Klein",
+                "Ariadna Masot",
+                "Arjan van Breemen",
+                "Charlotte Oldenbeuving",
+                "Daan van der Spek",
+                "Dirk Schut",
+                "Emma Govan",
+                "Eva Slingerland",
+                "Floor van den Berg",
+                "Irene Poch",
+                "Jacomijn van Ham",
+                "Jiska Bonte",
+                "Jiwei Zhou ",
+                "Jorinde van den Bosch",
+                "Judith van Heugten",
+                "Judith Anjema",
+                "Julian Kaihatu",
+                "Jungmin Yoon",
+                "Jurgen Kuipers",
+                "Lucas Geerts",
+                "Lucien Erdin",
+                "Maarten Verheij ",
+                "Maartje van der Meer",
+                "Margot Schouls",
+                "Marina Visic",
+                "Maura Henkes",
+                "Mingmei Yang",
+                "Patrick Fuchs",
+                "Rico van Onselen",
+                "Robbie de Groot",
+                "Romi Kharisnawan",
+                "Roos te Velde",
+                "Rosa Haersbach",
+                "Rudy de Lange",
+                "Saskia Monen",
+                "Savanne van Harrewijen",
+                "Schao Shang ",
+                "Sebastiaan van Wijk ",
+                "Simon van Staalduine",
+                "Sonny de Jong",
+                "Stephan Neevel",
+                "Tim Hermans",
+                "Ugné Koelewijn",
+                "Zach Burr",
+                "Zhongtian Li"
+            ]
+        }
+    ],
+    "combos": [
+        {
+            "name": "Kroese Kwartet",
+            "color":"darkgreen",
+            "members": [
+                "Bart Kroese",
+                "Tuhin Das",
+                "Cas Jiskoot",
+                "Laurens Buijs"
+            ]
+        },
+        {
+            "name": "Van Stralen Quintet",
+            "color": "lavender",
+            "members": [
+                "Luuk Withagen", 
+                "Lars Hoogland", 
+                "Elbrich van Stralen", 
+                "Kris Ransijn", 
+                "Luuk Eeftink"
+            ]
+        },
+        {
+            "name": "Capital S",
+            "color": "hsl(290, 100%, 50%)",
+            "members": [
+                "Luca van de Knaap",
+                "Kim van Eekelen",
+                "Tanna Manrique-de Kam",
+                "Bas Rosenboom",
+                "Rabin Iseger",
+                "Floris Bruinsma",
+                "Tessa Lievestro",
+                "Mats Dirkzwager",
+                "Richard Cousoij",
+                "Jochem van der Zaag",
+                "yann Rosema",
+                "Oskar Zakrzewski",
+                "Peter Mulders",
+                "Sofie Jansser",
+                "Daniel Zhuk"
+            ]
+        },
+        {
+            "name": "Count Basess",
+            "color":"hsl(10, 100%, 50%)",
+            "members": [
+                "Claire Verviers",
+                "Ate Kleijn",
+                "Martje Thelen ",
+                "Bas Biesheuvel",
+                "Koen Hermans ",
+                "Jurriaan Govers",
+                "Bas Verheij"
+            ]
+        },
+        {
+            "name": "Crisp",
+            "color":"hsl(100, 100%, 50%)",
+            "members": [
+                "Naomi Binnenkamp",
+                "Davey van Giesen",
+                "Sebas Joosten",
+                "Gerran Lankhorst",
+                "Frank Warffemius"
+            ]
+        },
+        {
+            "name": "Das Trio",
+            "color":"hsl(150, 100%, 50%)",
+            "members": [
+                "Tuhin Das",
+                "Lars Hoogland",
+                "Luuk Withagen"
+            ]
+        },
+        {
+            "name": "Decent Men",
+            "color":"hsl(180, 100%, 50%)",
+            "members": [
+                "Florian Holtbrend",
+                "Luuk Eeftink"
+            ]
+        },
+        {
+            "name": "Flow",
+            "color": "hsl(280, 100%, 50%)",
+            "members": [
+                "Sebas Joosten",
+                "Gerran Lankhorst",
+                "Nanne Aben"
+            ]
+        },
+        {
+            "name": "Fudge",
+            "color": "brown",
+            "members": [
+                "Jasper Nunninga",
+                "Moos Meijer",
+                "Thomas Booij",
+                "Tobias Roest",
+                "Job van Erp",
+                "Linda Supheert",
+                "Annemiek Wigger",
+                "Linda Supheert",
+                "Doris van Hooijdonk",
+                "Naomi Binnenkamp",
+                "Daniel Zhuk"
+            ]
+        },
+        {
+            "name": "Glitter Strings",
+            "color": "white",
+            "members": [
+                "Naomi Binnenkamp",
+                "Stijn van den Elshout",
+                "Alexander Heemels",
+                "Amanda van der Sijs",
+                "Maud Verhij",
+                "Liset Vliegen",
+                "Emilie Dik",
+                "Janneke Kortsmit",
+                "Daniel Zhuk",
+                "Tim Boot",
+                "Guy Versluys"
+            ]
+        },
+        {
+            "name": "Haex trio",
+            "color": "hsl(200, 100%, 50%)",
+            "members": [
+                "Thomas Haex", 
+                "Casper Hügel", 
+                "Sebas Joosten"
+            ]
+        },
+        {
+            "name": "Heemels Trio",
+            "color": "hsl(90, 100%, 50%)",
+            "members": [
+                "Stijn van den Elshout", 
+                "Gijs van Gasteren", 
+                "Alexander Heemels"
+            ]
+        },
+        {
+            "name": "Holland Americalijn",
+            "color": "hsl(110, 100%, 50%)",
+            "members": [
+                "Joep Knepper", "Pim America"
+            ]
+        },
+        {
+            "name": "Hoogland Quartet",
+            "color": "hsl(150, 100%, 50%)",
+            "members": [
+                "Lars Hoogland", 
+                "Luuk Withagen", 
+                "Paula Goldebeld", 
+                "Joost Schoonhoven"
+            ]
+        },
+        {
+            "name": "Kaihatu & De Jong",
+            "color": "hsl(150, 100%, 50%)",
+            "members": [
+                "Julian Kaihatu", "Sonny de Jong"
+            ]
+        },
+        {
+            "name": "Kris Ransijn Trio",
+            "color": "hsl(0, 100%, 50%)",
+            "members": [
+                "Kris Ransijn",
+                "Lars Hoogland",
+                "Luuk Withagen"
+            ]
+        },
+        {
+            "name": "Luuk Withagen Quintet",
+            "color": "hsl(200, 100%, 50%)",
+            "members": [
+                "Luuk Withagen",
+                "Cas Jiskoot",
+                "Joost Schoonhoven",
+                "Maarten Mens",
+                "Gijs Vis"
+            ]
+        },
+        {
+            "name": "Pica Trio",
+            "color": "hsl(220, 100%, 50%)",
+            "members": [
+                "Daan Houtzager",
+                "Ingo Nettersheim",
+                "Joep Knepper"
+            ]
+        },
+        {
+            "name": "Salted Butter",
+            "color": "beige",
+            "members": [
+                "Lars Hoogland",
+                "Ingo Nettersheim"
+            ]
+        },
+        {
+            "name": "Scotch, Wine & Water",
+            "color": "darkred",
+            "members": [
+                "Emma Wisse",
+                "Dion van den Heuvel",
+                "Tim Boot",
+                "Alexander Heemels",
+                "Stijn van den Elshout"
+            ]
+        },
+        {
+            "name": "The Sidewinders",
+            "color": "hsl(40, 100%, 50%)",
+            "members": [
+                "Jesse Salet",
+                "Moos Meijer",
+                "Tobias Roest",
+                "Dennis van Veen"
+            ]
+        },
+        {
+            "name": "Strijkers",
+            "color": "hsl(60, 100%, 50%)",
+            "members": [
+                "Renée Dooren",
+                "Naomi Binnenkamp",
+                "Mala Dengkeng",
+                "Halana Vlaming",
+                "Amanda van der Sijs",
+                "julia Stoevelaar",
+                "Marije Deul"
+            ]
+        },
+        {
+            "name": "Van Gasteren Quintet",
+            "color": "hsl(20, 100%, 50%)",
+            "members": [
+                "Gijs van Gasteren",
+                "Pim America",
+                "William Hunter",
+                "Joep Knepper",
+                "Lars Hoogland"
+            ]
+        },
+        {
+            "name": "Wakki",
+            "color": "hsl(100, 100%, 50%)",
+            "members": [
+                "Mischa de Haan",
+                "Richard Cousoij",
+                "Stijn van der Smagt",
+                "Stijn Lindeman",
+                "Sebas Joosten",
+                "Laurens Buijs"
+            ]
+        },
+        {
+            "name": "2Souls",
+            "color": "yellow",
+            "members": [
+                "Kim van Eekelen",
+                "Oskar Zakrzewski"
+            ]
+        }
+    ],
+    "unofficial": [
+        {
+            "name": "Beun Brass Band'",
+            "color": "blue",
+            "members": [
+                "Bart Kroese",
+                "Luuk eeftink",
+                "Tristan lievestro",
+                "Gijs Vis",
+                "Laurens Buijs",
+                "Marjolein Kippers",
+                "Allard van Engelenhoven",
+                "Huib baets",
+                "Jasper van rosendaal",
+                "Lucas Norder",
+                "Maarten mens"
+            ]
+        },
+        {
+            "name": "Ducktape'",
+            "color": "yellow",
+            "members": [
+                "Karan Kohabir", 
+                "Iris Jansen", 
+                "Thymo Vlot", 
+                "Lina Wang", 
+                "Paula Goldebeld", 
+                "Hidde van de Rhee", 
+                "Joep van der Hagen", 
+                "Raymond Lagraauw", 
+                "Michael de Mooij"
+            ]
+        }
+    ]
+}

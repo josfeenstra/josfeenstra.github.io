@@ -1,0 +1,22 @@
+#nodes-panel {
+    position: absolute;
+    padding-left: 10px;
+}
+
+#nodes-panel button {
+    background-color: var(--antracite-dark);
+    border-color: var(--white);
+    color: var(--white);
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 5px;
+}
+
+#nodes-panel .create-gizmo-button-wrapper button {
+    background-color: var(--white);
+    border-color: var(--antracite-dark);
+    color: var(--antracite-dark);
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 5px;
+}

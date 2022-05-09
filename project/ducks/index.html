@@ -1,0 +1,189 @@
+<html>
+	<head>
+		<title>Ducks in Space</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<style>
+			@font-face{
+				font-family:'zorque';
+				src: url('../resources/fonts/zorque.ttf');
+			}
+
+			body {
+				background-color: #000000;
+				padding: 0px;
+				margin: 0px;
+			}
+
+			#canvasdiv {
+				position: relative;
+			}
+
+			canvas {
+				border: 2px solid orange;
+				position: absolute;
+			}
+
+			.text {
+				color: orange;
+				margin: 0;
+				font-size: 40px;
+				font-family: 'zorque';
+			}
+
+			#score {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+			}
+
+			#controls {
+				position: absolute;
+				top: 10px;
+				left: 1080px;
+				font-size: 30px;
+			}
+
+			#controls2 {
+				position: absolute;
+				top: 50px;
+				left: 1020px;
+				font-size: 30px;
+			}
+
+			#title {
+				position: absolute;
+				top: 200px;
+				left: 50px;
+				font-size: 60px;
+			}
+
+			#brief {
+				position: absolute;
+				top: 320px;
+				left: 50px;
+				font-size: 40px;
+			}
+
+			#brief2 {
+				position: absolute;
+				top: 360px;
+				left: 50px;
+				font-size: 40px;
+			}
+
+			#play {
+				position: absolute;
+				top: 450px;
+				left: 210px;
+			}
+
+			#losetitle {
+				position: absolute;
+				top: 100px;
+				left: 550px;
+				font-size: 60px;
+			}
+
+			#losebrief {
+				position: absolute;
+				top: 160px;
+				left: 360px;
+			}
+
+			#losebrief2 {
+				position: absolute;
+				top: 210px;
+				left: 400px;
+			}
+
+			.button {
+				background-color: transparent;
+				border: 2px solid orange;
+				padding: 10px;
+				border-radius: 10px;
+			}
+
+			#replay {
+				position: absolute;
+				top: 350px;
+				left: 580px;
+			}
+		</style>
+	</head>
+	<body>
+
+		<div id="canvasdiv" width="1280" height="720">
+			<canvas id="canvas" width="1280" height="720"></canvas>
+			<!-- during gameplay -->
+			<p id="score" class="text">Ducklings: 0</p>
+			<p id="controls" class="text">Move with A/D</p>
+			<p id="controls2" class="text">or the arrow keys</p>
+
+			<!-- in the menu -->
+			<p class="text" id="title" hidden>Ducks in Space</p>
+			<p class="text" id="brief" hidden>Collect the lost ducklings</p>
+			<p class="text" id="brief2" hidden>Beware of the herons!</p>
+			<button class="text button" id="play" hidden>Play</button>
+
+			<!-- when you lost -->
+			<p class="text" id="losetitle" hidden>You lost!</p>
+			<p class="text" id="losebrief" hidden>Thank you for playing! Let us know</p>
+			<p class="text" id="losebrief2" hidden>what you think of the game!</p>
+			<button class="text button" id="replay" hidden>Restart</button>
+		</div>
+
+		<canvas id="heightMapCanvas" width="1024" height="512" style="top: 720px;"></canvas>
+
+		<script type="text/javascript" src="src/Audio/BufferLoader.js"></script>
+		<script type="text/javascript" src="src/Audio/SoundManager.js"></script>
+
+		<script type="text/javascript" src="src/Math/Math.js"></script>
+		<script type="text/javascript" src="src/Math/Perlin.js"></script>
+		
+		<script type="text/javascript" src="src/Modelling/ObjParsing.js"></script>
+		<script type="text/javascript" src="src/Modelling/Triangle.js"></script>
+		
+		<script type="text/javascript" src="src/Utilities/Helpers.js"></script>
+		<script type="text/javascript" src="src/Utilities/Vector.js"></script>
+		<script type="text/javascript" src="src/Utilities/Matrix.js"></script>
+		<script type="text/javascript" src="src/Utilities/Rectangle.js"></script>
+		<script type="text/javascript" src="src/Utilities/JsonLoader.js"></script>
+		<script type="text/javascript" src="src/Utilities/Pathfinder.js"></script>
+		<script type="text/javascript" src="src/Utilities/ResourceLoader.js"></script>
+		<script type="text/javascript" src="src/Utilities/InputHandler.js"></script>
+		<script type="text/javascript" src="src/Utilities/PRandom.js"></script>
+		<script type="text/javascript" src="src/Utilities/Util.js"></script>
+		<script type="text/javascript" src="src/Utilities/HashTable.js"></script>
+		<script type="text/javascript" src="src/Utilities/ImageProcessing.js"></script>
+		<script type="text/javascript" src="src/Utilities/Colors.js"></script>
+
+		<script type="text/javascript" src="src/Renderer/Shader.js"></script>
+		<script type="text/javascript" src="src/Renderer/Mesh.js"></script>
+		<script type="text/javascript" src="src/Renderer/BufferHelper.js"></script>
+		<script type="text/javascript" src="src/Renderer/Camera.js"></script>
+		<script type="text/javascript" src="src/Renderer/Renderer.js"></script>
+		<script type="text/javascript" src="src/Renderer/Graph.js"></script>
+
+		<script type="text/javascript" src="src/Entities/Entity.js"></script>
+		<script type="text/javascript" src="src/Entities/Duck.js"></script>
+		<script type="text/javascript" src="src/Entities/Duckling.js"></script>
+		<script type="text/javascript" src="src/Entities/Heron.js"></script>
+		
+		<script type="text/javascript" src="src/World.js"></script>
+
+		<script type="text/javascript" src="src/Constants.js"></script>
+
+		<script type="text/javascript" src="src/Game.js"></script>
+		<script type="text/javascript">
+			// We need to do this in some browsers, to ensure everything is loaded before we do anything
+			let canvas = undefined;
+			let game = undefined;
+
+			function main() {
+				canvas = document.getElementById('canvas');
+				game = new Game(canvas);
+			}
+			window.addEventListener("load", main, false);
+		</script>
+	</body>
+</html>

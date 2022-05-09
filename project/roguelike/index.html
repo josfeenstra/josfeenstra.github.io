@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+</html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roguelike</title>
+  </head>
+  <style>
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: hsl(0, 0%, 0%);
+        font-family: 'open sans', sans-serif;
+        font-weight: 300;
+        line-height: 1.3;
+        color: rgb(37, 37, 37);
+      }
+
+      a {
+        /* text-decoration: none; */
+        color: rgb(53, 53, 53);
+      }
+
+      /* Thank you, https://stackoverflow.com/questions/67758479/ */
+      .fullscreen {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .fullscreen * {
+        object-fit: contain;
+        max-height: 100%;
+        max-width: 100%;
+      }
+
+      canvas {
+        width: 100%;
+        /* height: 100%; */
+        image-rendering: -moz-crisp-edges;
+        image-rendering: -webkit-crisp-edges;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+  </style>
+  <body>
+    <div class="fullscreen">
+      <canvas id="canvas"></canvas>
+    </div>
+    <p style="position: absolute; bottom: 10px; right: 10px; z-index: -1;">
+      <!-- Roguelike, written in rust, based on Bracket's awesome tutorial series -->
+    </p>
+    <script src="./roguelike.js"></script>
+    <script>
+      window.addEventListener("load", async () => {
+        await wasm_bindgen("./roguelike_bg.wasm");
+      });
+    </script>
+  </body>
+</html>

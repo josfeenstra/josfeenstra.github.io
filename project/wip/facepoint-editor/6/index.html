@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EyeFinder</title>
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+    </head>
+    <body>
+        <article id="overlay">
+
+            <div class="wrapper">
+                <h3 id="facepoint-counter">1/4</h3>
+                <h1 id="facepoint-title">Loading...</h1>
+                <div id="slider-window">
+                    <div class="slider-window-item"></div>
+                    <div class="slider-window-item">
+                        <canvas id="canvas" tabindex="0"></canvas>
+                    </div>
+                    <div class="slider-window-item" id="vertical-slider-window-item">
+                        <input id="vertical-slider" orient="vertical" type="range" min="0" max="1" step="0.001">
+                    </div>
+
+                    <div class="slider-window-item" ></div>
+                    <div class="slider-window-item" id="horizontal-slider-window-item">
+                        <input id="horizontal-slider" type="range" min="0" max="1" step="0.001">
+                    </div>
+                    <div class="slider-window-item" ></div>
+                </div>
+                <div id="button-panel1">
+                    <!--🔄⬅️➡️💾-->
+                    <button class="control-button" id="button-prev">◄ Prev</button> 
+                    <button class="control-button" id="button-reset">↻ Reset</button>
+                    <button class="control-button" id="button-next">Next ►</button>
+                </div>
+                <div id="button-panel2">
+                    <button class="control-button" id="button-submit">⇅ Submit</button>
+                </div>
+                
+            </div>
+        </article>
+
+        <div id="interface"></div>
+    </body>
+
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href=".\css\main.css" />
+    <link rel="stylesheet" href=".\css\dropdown.css" />
+    <link rel="stylesheet" href=".\css\checkbox.css" />
+    <link rel="stylesheet" href=".\css\overlay.css" />
+    <link rel="stylesheet" href=".\css\overlay-sliders.css" />
+    <link rel="stylesheet" href=".\css\overlay-buttons.css" />
+</html>

@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+:root {
+    --antracite-light: #666f7a;
+    --antracite: #292C33;
+    --antracite-dark: #232427;
+    --white: #faf0e6;
+    --highlight: rgb(255, 69, 0); 
+    /* #ff4500*/
+  }
+
+
+html {
+    font-family: sans-serif;
+    background-color: var(--antracite-dark);
+    /* overflow: hidden; */
+}
+
+
+code {
+    font-family: Consolas,"courier new";
+    padding: 2px;
+    font-size: 95%;
+}
+
+body {
+    /* max-width: 1000px; */
+    margin: auto;
+}
+
+header {
+    background: orangered;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+}
+
+article, footer {
+    /* margin: 10px; */
+    width:fit-content;
+    height:fit-content;
+    background: white;
+}

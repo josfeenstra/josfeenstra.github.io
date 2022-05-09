@@ -1,0 +1,54 @@
+/* These are additions specifically for the eyepoint-editor lay-out */
+
+/* override canvas */
+#canvas {
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+body {
+    overflow: hidden;
+}
+
+#overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    /* margin-left: auto;
+    margin-right: auto;
+    max-width: 100vw;
+    color: white; */
+
+    /* height: 10em; */
+    margin-top: 5em;
+
+    /* flex-wrap: wrap; */
+
+    /* this is vertical alignment */
+    /* align-items: center;  */
+}
+
+#overlay > .wrapper {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#overlay p,h1,h2,h3 {
+    margin: 0 auto;
+    color: #444;
+    margin: 5px auto;
+    text-align: center;
+}
+
+#overlay h3 {
+    color: lightgray;
+}
+
+
+
+
+

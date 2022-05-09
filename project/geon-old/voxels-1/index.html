@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EyeFinder</title>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+    <style>
+
+        #interface {
+            position: absolute;
+            color: white;
+            left: 5px;
+            bottom: 5px;
+        }
+
+        #camera {
+            /* position: absolute; */
+            /* width: 1366px; */
+            /* height: 768px; */
+            /* z-index: 10; */
+
+            text-align: center;
+            /* opacity: 0.5; */
+
+            left: 0;
+            right: 0;
+        }
+
+        #canvas {
+            position: absolute;
+            /* background-color: grey; */
+            
+            width: 100%;
+            height: 100%;
+            /* z-index: 9; */
+
+            /* text-align: center; */
+            /* opacity: 1.0; */
+            /* background-color: gray; */
+            left: 0;
+            right: 0;
+        }
+
+        body {
+            background-color: rgb(23, 23, 26);
+            border: 0;
+            margin: 0;
+        }
+
+        .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 20px;
+            background: #1f1f1f;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+        }
+
+        .slider:hover {
+            opacity: 1;
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            background: #020007;
+            cursor: pointer;
+        }
+
+        .slider::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            background: #020007;
+            cursor: pointer;
+        }
+    </style>
+    
+</head>
+<body>
+    <canvas id="canvas" tabindex="0"></canvas>
+    <video id="camera" muted hidden></video>
+  
+    <div id="interface">
+        <!-- <input type="range" min="0" max="100" value="50" step="10" class="slider" id="slider1">
+        <input type="range" min="0" max="100" value="50" step="10" class="slider" id="slider1">
+        <input type="range" min="0" max="100" value="50" step="10" class="slider" id="slider1"> -->
+        <!-- <button id="camera-on">On</button>
+        <button id="camera-off">Off</button>
+        <button id="predict">Predict</button> -->
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

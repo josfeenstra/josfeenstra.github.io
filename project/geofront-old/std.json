@@ -1,0 +1,22 @@
+{
+    "std": [
+        {
+            "name": "bool",
+            "path": "./geon-modules/bool.js",
+            "fullPath": "josfeenstra.nl/project/nodes/geon-modules/bool.js",
+            "icon": "toggles"
+        },
+        {
+            "name": "math",
+            "path": "./geon-modules/math.js",
+            "fullPath": "josfeenstra.nl/project/nodes/geon-modules/math.js",
+            "icon": "calculator-fill"
+        },
+        {
+            "name": "test",
+            "path": "./geon-modules/test.js",
+            "fullPath": "josfeenstra.nl/project/nodes/geon-modules/test.js",
+            "icon": "box"
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+
+/* CONTENT STYLE */
+/* .content-wrapper {
+    min-height: 600px;
+} */
+
+body {
+    color: #fff;
+    /* font-family: 'Noto Sans', sans-serif; */
+}
+
+.grid {
+    margin: 32px;
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    /* justify-content: space-evenly;     */
+}
+
+.card {
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #353535;
+    background-blend-mode: multiply;
+    font-size: 2.5rem;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, 
+                rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    
+    width: 100%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+
+
+    transition: all 200ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+.card > p {
+    color: grey;
+    transition: all 200ms;
+}
+
+.card:hover > p {
+    color: white;
+}
+
+.card:hover {
+    z-index: 20;
+    background-color: #f04d2e;
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
+         rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.05);
+ }
+
+@media only screen and (max-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);    
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);    
+    }
+}

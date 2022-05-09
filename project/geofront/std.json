@@ -1,0 +1,54 @@
+﻿{
+    "std": [
+        {
+            "nickname": "various",
+            "icon": "bi-question-diamond",
+            "filename": "various",
+            "path": "./modules/"
+        },
+        {
+            "nickname": "bool",
+            "icon": "bi-toggle-on",
+            "filename": "bool",
+            "path": "./modules/"
+        },
+        {
+            "nickname": "math",
+            "icon": "bi-calculator",
+            "filename": "math",
+            "path": "./modules/"
+        },
+        {
+            "nickname": "types",
+            "icon": "bi-arrow",
+            "filename": "types",
+            "path": "./modules/"
+        },
+        {
+            "nickname": "points",
+            "icon": "bi-circle",
+            "filename": "points",
+            "path": "./modules/linalg/"
+        }
+    ],
+    "std_old": [],
+    "wasm": [
+    ],
+
+    "wasm-unused": [
+        {
+            "icon": "bi-puzzle-fill",
+            "nickname": "wasm",
+            "filename": "wasm_nodes",
+            "localPath": "wasm-modules/hello-wasm/",
+            "url": "josfeenstra.nl/project/nodes/wasm-modules/"
+        },
+        {
+            "icon": "bi-puzzle-fill",
+            "nickname": "startin",
+            "filename": "gfp_startin",
+            "localPath": "wasm-modules/startin/",
+            "url": "josfeenstra.nl/project/nodes/wasm-modules/"
+        }
+    ]
+}

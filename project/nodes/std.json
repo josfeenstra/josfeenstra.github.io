@@ -1,0 +1,38 @@
+{
+    "std": [
+        {
+            "icon": "bi-question-diamond",
+            "nickname": "various",
+            "filename": "various",
+            "path": "./modules/"
+        },
+        {
+            "icon": "bi-toggle-on",
+            "nickname": "bool",
+            "filename": "bool",
+            "path": "./modules/"
+        },
+        {
+            "icon": "bi-calculator",
+            "nickname": "math",
+            "filename": "math",
+            "path": "./modules/"
+        },
+        {
+            "icon": "bi-braces",
+            "nickname": "std",
+            "filename": "std",
+            "path": "./modules/"
+        }
+    ],
+    "std_old": [],
+    "wasm": [
+        {
+            "icon": "bi-house",
+            "nickname": "cityjson",
+            "filename": "cityjson_validator",
+            "localPath": "wasm-modules/",
+            "url": "josfeenstra.nl/project/nodes/wasm-modules/"
+        }
+    ]
+}

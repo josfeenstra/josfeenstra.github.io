@@ -1,0 +1,10 @@
+{
+	"meshVertexShader": "MeshVertexShader.glsl",
+	"meshFragmentShader": "MeshFragmentShader.glsl",
+	"terrainVertexShader": "TerrainVertexShader.glsl",
+	"terrainFragmentShader": "TerrainFragmentShader.glsl",
+	"waterVertexShader": "WaterVertexShader.glsl",
+	"waterFragmentShader": "WaterFragmentShader.glsl",
+	"imageVertexShader": "ImageVertexShader.glsl",
+	"imageFragmentShader": "ImageFragmentShader.glsl"
+}

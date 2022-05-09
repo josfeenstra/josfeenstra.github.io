@@ -1,0 +1,26 @@
+.dropzone {
+    padding: 50px;
+    border-radius: 10px;
+    border: 5px solid grey;
+    background-color: rgb(177, 177, 177);
+    
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+}
+
+/* todo add some fade */
+
+.dropzone > .selector {
+    color: white;
+    font-weight:bolder;
+}
+
+.dropzone > .mouse-on {
+    color: orangered;
+}
+
+.drop-enter {
+    background-color: orangered;
+}
+
