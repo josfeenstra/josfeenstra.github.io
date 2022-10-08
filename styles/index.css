@@ -1,6 +1,6 @@
 /* META */
 :root {
-    --main-bg-color: #1f1f1f;
+    --main-bg-color: #2a2626;
     --secondary-bg-color: #2f2f2f;
     --main-text-color: white;
     --main-text-color-dark: rgb(214, 214, 214);
@@ -50,7 +50,8 @@ strong {
 }
 
 canvas {
-    background-image: linear-gradient(to bottom right, rgb(120, 122, 131), rgb(61, 63, 71));
+    /* THIS IS THE ACTUAL BACKGROUND, I HAVE NO IDEA WHAT ALL THE OTHER COLORS ARE DOING */
+    background-image: linear-gradient(to bottom right, rgb(160, 172, 183), rgb(23, 29, 48));
     z-index: -1;
     position:absolute;
     top:0; 
@@ -66,7 +67,7 @@ canvas {
 
 
 .thumbnail-image:hover {
-    background-color: rgba(145, 145, 145, 0.615);
+    background-color: rgba(207, 208, 229, 0.24);
     /* background-blend-mode: darken; */
     /* background-size: cover; */
     /* filter: brightness(1.1) */
