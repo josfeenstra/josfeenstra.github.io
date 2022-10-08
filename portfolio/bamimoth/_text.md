@@ -4,9 +4,11 @@
 ### Indie Game Development | Web Development | Pixel Art 
 <br>
 
-Bamimoth is an Indie Gamedev studio me and my friends set up as a side project. What makes these games unique and fun is that they are truly set up as interactive simulations. Adding a system like AI, space gravity, or fluid dynamics makes a digital world feel alive: It will move and do its own thing, regardless of if the player is there to witness it. 
+Bamimoth is an Indie Gamedev studio I am glad to be a part of. What makes our games unique and fun is that they are truly set up as interactive simulations. We like to add systems like AI, gravity, or fluid dynamics to make our digital worlds come alive: Systems which move of their own accord, regardless of if the player is there to witness it. 
 
-The two main programmers, Frank & Ward, keep fascinating me with their genius & insane coding speed. I like to contribute to our projects in any way I can, be it artwork, gameplay, or code. 
+The two main programmers, Frank & Ward, keep fascinating me with their genius and sheer speed. 
+The ladies in our team, Cilia and Nadja, make our games truly shine with the cutest of polygons and pixels. 
+I like to contribute to our projects in any way I can, be it code, art, or gameplay. 
 
 <br>
 > [Check out our website!](https://bamimoth.com/)
