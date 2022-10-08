@@ -50,13 +50,27 @@ strong {
 }
 
 canvas {
-
     background-image: linear-gradient(to bottom right, rgb(120, 122, 131), rgb(61, 63, 71));
-
     z-index: -1;
     position:absolute;
     top:0; 
     left:0;
+}
+
+.thumbnail-image {
+    /* background-color: rgba(49, 49, 49, 0.615); */
+    /* background-blend-mode: darken; */
+    /* background-size: cover; */
+    /* filter: brightness(0.5) */
+}
+
+
+.thumbnail-image:hover {
+    background-color: rgba(145, 145, 145, 0.615);
+    /* background-blend-mode: darken; */
+    /* background-size: cover; */
+    /* filter: brightness(1.1) */
+
 }
 
 /* Nav Elements */
