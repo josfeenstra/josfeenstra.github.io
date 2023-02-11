@@ -12,7 +12,8 @@ building 3D environments for both native and web consumption.
 <br>
 
 ![Screenshot](portfolio/island/thumb.png "screenshot")
+![1](portfolio/island/1.png "screenshot")
+![2](portfolio/island/2.png "screenshot")
 
 > [Islands demo](https://josfeenstra.nl/project/island)
-> [Repo](https://github.com/josfeenstra/sphere)
 > [The Bevy website](https://bevyengine.org/)

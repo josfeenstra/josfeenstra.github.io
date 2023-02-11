@@ -1,7 +1,7 @@
 # Thank you for visiting!
 <br>
 
-My name is Jos Feenstra, and I am a creative software engineer.
+Hi, My name is Jos Feenstra, and I am a creative software engineer.
 
 For as long as I can remember, I have been deeply fascinated by the interplay between creativity and automation. I try to fill my life with both. This has led me to a bachelors degree in Architecture, to pursuit a masters degree in Geomatics, and to build 3D engines, websites, games, and more. If I am not behind a computer screen, I enjoy cycling, origami, and making music at the Student Jazz Association Groover. 
 
