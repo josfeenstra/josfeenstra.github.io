@@ -1,0 +1,15 @@
+{
+  "name": "startin-gf",
+  "collaborators": [
+    "Jos <me@josfeenstra.nl>"
+  ],
+  "version": "0.2.2",
+  "files": [
+    "startin_gf_bg.wasm",
+    "startin_gf.js",
+    "startin_gf.d.ts"
+  ],
+  "module": "startin_gf.js",
+  "types": "startin_gf.d.ts",
+  "sideEffects": false
+}

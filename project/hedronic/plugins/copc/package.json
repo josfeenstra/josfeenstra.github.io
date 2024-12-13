@@ -1,0 +1,12 @@
+{
+  "name": "copc-gf",
+  "version": "0.2.1",
+  "files": [
+    "copc_gf_bg.wasm",
+    "copc_gf.js",
+    "copc_gf.d.ts"
+  ],
+  "module": "copc_gf.js",
+  "types": "copc_gf.d.ts",
+  "sideEffects": false
+}

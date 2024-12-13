@@ -1,0 +1,636 @@
+ {
+  "nodes": {
+    "76ddb65a-c329": {
+      "hash": "76ddb65a-c329",
+      "position": {
+        "x": 6,
+        "y": 11
+      },
+      "type": 0,
+      "process": {
+        "name": "Random from seed",
+        "path": [
+          "std",
+          "Math",
+          "Random",
+          "Random from seed"
+        ],
+        "inCount": 1,
+        "outCount": 1,
+        "ins": [
+          "any"
+        ],
+        "outs": [
+          "any"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "a3861169-ab7e",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "11c65996-071e",
+            "index": -2
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "a3861169-ab7e": {
+      "hash": "a3861169-ab7e",
+      "position": {
+        "x": 1,
+        "y": 11
+      },
+      "type": 1,
+      "process": {
+        "name": "slider",
+        "state": 9
+      },
+      "inputs": [],
+      "outputs": [
+        [
+          {
+            "node": "76ddb65a-c329",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "3f05d5da-33b2": {
+      "hash": "3f05d5da-33b2",
+      "position": {
+        "x": 1,
+        "y": 8
+      },
+      "type": 1,
+      "process": {
+        "name": "slider",
+        "state": 0
+      },
+      "inputs": [],
+      "outputs": [
+        [
+          {
+            "node": "c9a238b6-5914",
+            "index": -3
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "11c65996-071e": {
+      "hash": "11c65996-071e",
+      "position": {
+        "x": 14,
+        "y": 6
+      },
+      "type": 0,
+      "process": {
+        "name": "Spawn",
+        "path": [
+          "std",
+          "Math",
+          "Range",
+          "Range 3",
+          "Spawn"
+        ],
+        "inCount": 3,
+        "outCount": 1,
+        "ins": [
+          "Object {}",
+          "Object {}",
+          "number"
+        ],
+        "outs": [
+          "Object {}"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "c9a238b6-5914",
+          "index": 1
+        },
+        {
+          "node": "76ddb65a-c329",
+          "index": 1
+        },
+        {
+          "node": "0b1667d0-fc1e",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "1dfc7764-22e7",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "0b1667d0-fc1e": {
+      "hash": "0b1667d0-fc1e",
+      "position": {
+        "x": 7,
+        "y": 16
+      },
+      "type": 1,
+      "process": {
+        "name": "slider",
+        "state": 1000
+      },
+      "inputs": [],
+      "outputs": [
+        [
+          {
+            "node": "11c65996-071e",
+            "index": -3
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "c9a238b6-5914": {
+      "hash": "c9a238b6-5914",
+      "position": {
+        "x": 6,
+        "y": 6
+      },
+      "type": 0,
+      "process": {
+        "name": "Range3 from radii",
+        "path": [
+          "std",
+          "Math",
+          "Range",
+          "Range 3",
+          "Range3 from radii"
+        ],
+        "inCount": 3,
+        "outCount": 1,
+        "ins": [
+          "number",
+          "number",
+          "number"
+        ],
+        "outs": [
+          "Object {}"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "d1d284e2-24bc",
+          "index": 1
+        },
+        {
+          "node": "800c3410-5424",
+          "index": 1
+        },
+        {
+          "node": "3f05d5da-33b2",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "11c65996-071e",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "800c3410-5424": {
+      "hash": "800c3410-5424",
+      "position": {
+        "x": 1,
+        "y": 7
+      },
+      "type": 1,
+      "process": {
+        "name": "slider",
+        "state": 5
+      },
+      "inputs": [],
+      "outputs": [
+        [
+          {
+            "node": "c9a238b6-5914",
+            "index": -2
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "d1d284e2-24bc": {
+      "hash": "d1d284e2-24bc",
+      "position": {
+        "x": 1,
+        "y": 6
+      },
+      "type": 1,
+      "process": {
+        "name": "slider",
+        "state": 5
+      },
+      "inputs": [],
+      "outputs": [
+        [
+          {
+            "node": "c9a238b6-5914",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "1dfc7764-22e7": {
+      "hash": "1dfc7764-22e7",
+      "position": {
+        "x": 14,
+        "y": 11
+      },
+      "type": 0,
+      "process": {
+        "name": "MultiPoint",
+        "path": [
+          "std",
+          "Multi",
+          "Multi Point",
+          "MultiPoint"
+        ],
+        "inCount": 1,
+        "outCount": 1,
+        "ins": [
+          "List<>"
+        ],
+        "outs": [
+          "Object {}"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "11c65996-071e",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "2a280810-f1a6",
+            "index": -1
+          },
+          {
+            "node": "46867de5-474c",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "2a280810-f1a6": {
+      "hash": "2a280810-f1a6",
+      "position": {
+        "x": 41,
+        "y": 15
+      },
+      "type": 0,
+      "process": {
+        "name": "Delaunay",
+        "path": [
+          "std",
+          "3D",
+          "Mesh",
+          "Delaunay"
+        ],
+        "inCount": 1,
+        "outCount": 1,
+        "ins": [
+          "List<>"
+        ],
+        "outs": [
+          "Object {}"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "1dfc7764-22e7",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        []
+      ],
+      "looping": false
+    },
+    "7f764d23-4587": {
+      "hash": "7f764d23-4587",
+      "position": {
+        "x": 22,
+        "y": 9
+      },
+      "type": 0,
+      "process": {
+        "name": "new_from_vec",
+        "path": [
+          "startin",
+          "Triangulation",
+          "new_from_vec"
+        ],
+        "inCount": 1,
+        "outCount": 1,
+        "ins": [
+          "Ref->Float64Array"
+        ],
+        "outs": [
+          "Ref->Triangulation"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "46867de5-474c",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "85e37c6d-d261",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "46867de5-474c": {
+      "hash": "46867de5-474c",
+      "position": {
+        "x": 22,
+        "y": 6
+      },
+      "type": 1,
+      "process": {
+        "name": "get",
+        "state": {
+          "keys": [
+            "data"
+          ],
+          "types": [
+            5
+          ]
+        }
+      },
+      "inputs": [
+        {
+          "node": "1dfc7764-22e7",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "7f764d23-4587",
+            "index": -1
+          },
+          {
+            "node": "e420b7c8-e49a",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "85e37c6d-d261": {
+      "hash": "85e37c6d-d261",
+      "position": {
+        "x": 28,
+        "y": 9
+      },
+      "type": 0,
+      "process": {
+        "name": "all_triangles",
+        "path": [
+          "startin",
+          "Triangulation",
+          "all_triangles"
+        ],
+        "inCount": 1,
+        "outCount": 1,
+        "ins": [
+          "Ref->Triangulation"
+        ],
+        "outs": [
+          "Ref->Uint32Array"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "7f764d23-4587",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "6616ac4b-608a",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "e420b7c8-e49a": {
+      "hash": "e420b7c8-e49a",
+      "position": {
+        "x": 28,
+        "y": 6
+      },
+      "type": 0,
+      "process": {
+        "name": "MultiPoint from array",
+        "path": [
+          "std",
+          "Multi",
+          "Multi Point",
+          "MultiPoint from array"
+        ],
+        "inCount": 1,
+        "outCount": 1,
+        "ins": [
+          "List<>"
+        ],
+        "outs": [
+          "Object {}"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "46867de5-474c",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "b4ba6b58-1149",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "b4ba6b58-1149": {
+      "hash": "b4ba6b58-1149",
+      "position": {
+        "x": 41,
+        "y": 6
+      },
+      "type": 0,
+      "process": {
+        "name": "Mesh",
+        "path": [
+          "std",
+          "3D",
+          "Mesh",
+          "Mesh"
+        ],
+        "inCount": 2,
+        "outCount": 1,
+        "ins": [
+          "Object {}",
+          "List<>"
+        ],
+        "outs": [
+          "Object {}"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "e420b7c8-e49a",
+          "index": 1
+        },
+        {
+          "node": "6419a42a-9a34",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        []
+      ],
+      "looping": false
+    },
+    "6419a42a-9a34": {
+      "hash": "6419a42a-9a34",
+      "position": {
+        "x": 33,
+        "y": 12
+      },
+      "type": 0,
+      "process": {
+        "name": "sub",
+        "path": [
+          "std",
+          "Math",
+          "Basic",
+          "sub"
+        ],
+        "inCount": 2,
+        "outCount": 1,
+        "ins": [
+          "any",
+          "any"
+        ],
+        "outs": [
+          "any"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "6616ac4b-608a",
+          "index": 1
+        },
+        {
+          "node": "93fb02e2-bd51",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "b4ba6b58-1149",
+            "index": -2
+          }
+        ]
+      ],
+      "looping": true
+    },
+    "93fb02e2-bd51": {
+      "hash": "93fb02e2-bd51",
+      "position": {
+        "x": 26,
+        "y": 13
+      },
+      "type": 1,
+      "process": {
+        "name": "slider",
+        "state": 1
+      },
+      "inputs": [],
+      "outputs": [
+        [
+          {
+            "node": "6419a42a-9a34",
+            "index": -2
+          }
+        ]
+      ],
+      "looping": false
+    },
+    "6616ac4b-608a": {
+      "hash": "6616ac4b-608a",
+      "position": {
+        "x": 33,
+        "y": 9
+      },
+      "type": 0,
+      "process": {
+        "name": "asList",
+        "path": [
+          "various",
+          "asList"
+        ],
+        "inCount": 1,
+        "outCount": 1,
+        "ins": [
+          "any"
+        ],
+        "outs": [
+          "List<any>"
+        ]
+      },
+      "inputs": [
+        {
+          "node": "85e37c6d-d261",
+          "index": 1
+        }
+      ],
+      "outputs": [
+        [
+          {
+            "node": "6419a42a-9a34",
+            "index": -1
+          }
+        ]
+      ],
+      "looping": false
+    }
+  }
+}

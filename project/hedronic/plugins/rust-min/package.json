@@ -1,0 +1,12 @@
+{
+  "name": "rust-min-gf",
+  "version": "0.1.0",
+  "files": [
+    "rust_min_gf_bg.wasm",
+    "rust_min_gf.js",
+    "rust_min_gf.d.ts"
+  ],
+  "module": "rust_min_gf.js",
+  "types": "rust_min_gf.d.ts",
+  "sideEffects": false
+}

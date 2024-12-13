@@ -1,0 +1,49 @@
+﻿{
+    "std": [
+        {
+            "nickname": "various",
+            "icon": "bi-question-diamond",
+            "filename": "various",
+            "path": "./modules/"
+        },
+        {
+            "nickname": "types",
+            "icon": "bi-arrow",
+            "filename": "types",
+            "path": "./modules/"
+        },
+        {
+            "nickname": "points",
+            "icon": "bi-circle",
+            "filename": "points",
+            "path": "./modules/linalg/"
+        }
+    ],
+    "std_old": [],
+    "wasm": [
+        {
+            "icon": "bi-puzzle-fill",
+            "nickname": "geofront",
+            "filename": "geofront",
+            "path": "https://cdn.jsdelivr.net/npm/geofront/",
+            "__path": "https://cdn.jsdelivr.net/npm/geofront@0.2.0/",
+            "__localPath": "wasm-modules/hello-wasm/"
+        },
+        {
+            "icon": "bi-puzzle-fill",
+            "nickname": "wasm",
+            "filename": "wasm_nodes",
+            "path": "wasm-modules/hello-wasm/",
+            "_localPath": "wasm-modules/hello-wasm/"
+        },
+        {
+            "icon": "bi-puzzle-fill",
+            "nickname": "startin",
+            "filename": "gfp_startin",
+            "path": "wasm-modules/startin/",
+
+            "__path": "https://cdn.jsdelivr.net/npm/gfp-startin@0.2.0/",
+            "__localPath": "wasm-modules/startin/"
+        }
+    ]
+}

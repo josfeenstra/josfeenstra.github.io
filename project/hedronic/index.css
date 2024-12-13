@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+:root {
+    /* --background-color-0: hsl(240, 5%, 11%);
+    --background-color-1: hsl(240, 6%, 15%);
+    --background-color-2: hsl(240, 7%, 18%);
+    --background-color-3: hsl(240, 8%, 22%);
+    --background-color-4: hsl(240, 9%, 38%); */
+
+    --background-color-0: hsl(240, 8%, 11%);
+    --background-color-1: hsl(240, 10%, 15%);
+    --background-color-2: hsl(240, 12%, 18%);
+    --background-color-3: hsl(240, 12%, 22%);
+    --background-color-4: hsl(240, 12%, 38%);
+    
+    /* --accent-color--1: hsl(135, 100%, 70%);
+    --accent-color-0: hsl(120, 100%, 50%);
+    --accent-color-1: hsl(125, 80%, 40%);
+    --accent-color-2: hsl(140, 70%, 30%);
+    --accent-color-3: hsl(160, 61%, 10%); */
+
+
+    --accent-color--1: hsl(199, 100%, 61%);
+    --accent-color-0: hsl(202, 100%, 55%);
+    --accent-color-1: hsl(202, 80%, 50%);
+    --accent-color-2: hsl(202, 70%, 40%);
+    --accent-color-3: hsl(202, 61%, 10%);
+
+    --default-color-1: #ffffff;
+    --default-color-2: #d9e1eb;
+    --default-color-3: hsl(220, 2%, 72%);
+
+    --secondary-color-0: hsl(224, 60%, 60%);
+    --secondary-color-1: hsl(224, 100%, 50%);
+    --secondary-color-3: hsl(222, 11%, 18%);
+    --secondary-color-5: hsl(234, 10%, 10%);
+    --secondary-color-6: hsl(240, 5%,   5%);
+
+    --cyan: rgb(0, 195, 255);
+    --cyan-dark: rgb(0, 50, 126);
+
+    --tryout-color: #000000;
+    --cable-color: #07e91a;
+    --node-color: #1b1b1e;
+    --node-edge: #cecdd1;
+
+    --font-lead: "Rajdhani", sans-serif;
+    --font-body: "aktiv-grotesk", "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/* Plugin */
+json-viewer {
+    /* Background, font and indentation */
+    --background-color: var(--background-color-3);
+    --color: #f8f8f2;
+    --font-family: monaco, Consolas, 'Lucida Console', monospace;
+    --font-size: 1rem;
+    --indent-size: 1.5em;
+    --indentguide-size: 1px;
+    --indentguide-style: solid;
+    --indentguide-color: #333;
+    --indentguide-color-active: #666;
+    --indentguide: var(--indentguide-size) var(--indentguide-style) var(--indentguide-color);
+    --indentguide-active: var(--indentguide-size) var(--indentguide-style) var(--indentguide-color-active);
+
+    /* Types colors */
+    --null-color: #df9cf3;
+    --string-color: #a3eea0;
+    --number-color: #d16666;
+    --boolean-color: #4ba7ef;
+    --property-color: #6fb3d2;
+
+    /* Collapsed node preview */
+    --preview-color: rgba(222, 175, 143, 0.9);
+
+    /* Search highlight color */
+    --highlight-color: #6fb3d2;
+}
+
+#old {
+    --accent-color-0: rgb(255, 100, 0);
+    --accent-color-1: rgb(255, 20, 0);
+    --accent-color-3: rgb(133, 10, 10);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: var(--font-lead); */
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    color: white;
+    /* font-family: var(--font-lead); */
+    background-color: var(--background-color-3);
+}
+
+/* p, a { */
+    /* font-family: var(--font-body); */
+/* } */
+
+:not(:defined) {
+    visibility: hidden;
+}

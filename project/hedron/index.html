@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+</html lang="en">
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="../../logo.svg" />
+
+  <meta property="og:url" content="https://geofront.nl/polderen/assets/sphere.png" />
+  <meta property="og:image" content="https://geofront.nl/polderen/assets/sphere.png" />
+  <meta property="og:title" content="Polderen!" />
+  <meta property="og:description" content="De officiele Polderen! Demo" />
+
+  <title>Hedron Demo Scenes</title>
+</head>
+<style>
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(0, 0%, 0%);
+    font-family: 'open sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    color: rgb(37, 37, 37);
+
+
+  }
+
+  a {
+    /* text-decoration: none; */
+    color: rgb(53, 53, 53);
+  }
+
+  /* Thank you, https://stackoverflow.com/questions/67758479/ */
+  body {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body * {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  canvas {
+    width: 100%;
+    /* height: 100%; */
+
+    /* for pixelart */
+    /* image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges; */
+  }
+</style>
+
+<body oncontextmenu="return false;">
+  <script type="module">
+    import init from './scenes.js'
+    init()
+  </script>
+</body>
+
+</html>

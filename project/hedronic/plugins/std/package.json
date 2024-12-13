@@ -1,0 +1,15 @@
+{
+  "name": "std-gf",
+  "collaborators": [
+    "josfeenstra <me@josfeenstra.nl>"
+  ],
+  "version": "0.1.1",
+  "files": [
+    "std_gf_bg.wasm",
+    "std_gf.js",
+    "std_gf.d.ts"
+  ],
+  "module": "std_gf.js",
+  "types": "std_gf.d.ts",
+  "sideEffects": false
+}
